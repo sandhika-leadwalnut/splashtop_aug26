@@ -69,10 +69,18 @@ export const DASHBOARD_STATS = {
   urlsTracked: 15,
   totalBacklinks: 381,
   keywordsTracked: 35,
-  PlanTotalBacklinks : 430,
+  PlanTotalBacklinks : 420,
 };
 
 export const KEY_FINDINGS = [
+  {
+    title: "Sustained Visibility on Core Keywords",
+    description:
+      "**Remote access and support keywords** continue to maintain strong visibility, with **'remote access (5)' ranking in the top 5 and 'remote support (10)'** securing a first-page position.",
+    icon: "fas fa-bullseye",
+    color: "text-teal-600",
+    bgColor: "bg-teal-50",
+  },
   {
     title: "High-Authority Backlink Acquisition",
     description:
@@ -82,28 +90,20 @@ export const KEY_FINDINGS = [
     bgColor: "bg-purple-50",
   },
   {
-    title: "Domain Authority Improvement",
-    description:
-      "**Domain authority improved for two referring domains**, with the DA increasing from **41 to 42 for 'anydesk pricing'** and from **47 to 48 for 'remote access software'**.",
-    icon: "fas fa-arrow-trend-up",
-    color: "text-green-600",
-    bgColor: "bg-green-50",
-  },
-  {
     title: "Strong Performance Across Competitor Keywords",
     description:
-      "**Competitor keywords continue to perform strongly**, with **'anydesk pricing (4)'**, **'teamviewer alternative (5)'**, and **'teamviewer pricing (5)'** ranking in the top 5, while **'anydesk alternative (7)'** maintains a top 10 position.",
+      "Most of the **competitor keywords** are showing great improvement, with **three keywords now ranking in the top 10 positions**.",
     icon: "fas fa-chart-line",
     color: "text-blue-600",
     bgColor: "bg-blue-50",
   },
   {
-    title: "Sustained Visibility on Core Keywords",
+    title: "Domain Authority Improvement",
     description:
-      "**Remote access and support keywords continue to maintain strong visibility**, with **'remote access (5)'** ranking in the top 5 and **'remote support (10)'** securing a first-page position.",
-    icon: "fas fa-bullseye",
-    color: "text-teal-600",
-    bgColor: "bg-teal-50",
+      "**Domain authority improved for a key referring domain**, with the DA increasing from **47 to 48** for the domain associated with **'remote access software.'**",
+    icon: "fas fa-arrow-trend-up",
+    color: "text-green-600",
+    bgColor: "bg-green-50",
   },
 ];
 

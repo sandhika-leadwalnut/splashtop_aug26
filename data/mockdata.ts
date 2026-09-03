@@ -65,9 +65,9 @@ export const performanceSummary: PerformanceSummary[] = [
   {
     url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
     paChange: 2,
-    bestKeywordMove: null,
+    bestKeywordMove: {keyword: "autonomous endpoint management", change: "+9" },
     worstKeywordMove: null,
-    overallStatus: "Stable",
+    overallStatus: "Positive",
   },
   {
     url: "https://www.splashtop.com/compare/teamviewer-alternative",
@@ -79,7 +79,7 @@ export const performanceSummary: PerformanceSummary[] = [
   {
     url: "https://www.splashtop.com/blog/teamviewer-pricing-comparison",
     paChange: 1,
-    bestKeywordMove: { keyword: "teamviewer pricing", change: "+16" },
+    bestKeywordMove: { keyword: "teamviewer pricing", change: "+15" },
     worstKeywordMove: null,
     overallStatus: "Positive",
   },
@@ -143,7 +143,7 @@ export const monthlyBacklinkGrowth = [
 export const keywordRankingPerformance = {
   topThree: {
     jan25: 0,
-    oct25: 4,
+    oct25: 5,
 
     data: [
       {
@@ -169,6 +169,12 @@ export const keywordRankingPerformance = {
         keyword: "anydesk pricing",
         jan25Rank: 8,
         oct25Rank: 4,
+      },
+      {
+        url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+        keyword: "autonomous endpoint management",
+        jan25Rank: 14,
+        oct25Rank: 5,
       },
     ],
   },
@@ -250,6 +256,12 @@ export const keywordRankingPerformance = {
         url: "https://www.splashtop.com/blog/what-is-patch-management",
         keyword: "patch management",
         rank: 6,
+      },
+      {
+        url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+        keyword: "autonomous endpoint management",
+        jan25Rank: 14,
+        oct25Rank: 5,
       },
     ],
   },
