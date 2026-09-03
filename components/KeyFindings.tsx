@@ -1,36 +1,37 @@
 import { KEY_FINDINGS } from "../data/index";
 
+// Renders **bold** segments inside a finding's description, so emphasis can be
+// authored directly in the data file (mirrors the Word doc formatting).
+const renderWithEmphasis = (text: string) =>
+  text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={i} className="font-semibold text-gray-900">
+        {part.slice(2, -2)}
+      </strong>
+    ) : (
+      part
+    )
+  );
+
 const KeyFindings = () => {
   const findings = KEY_FINDINGS;
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-md mb-8">
-      <h2 className="text-xl font-bold text-gray-800 mb-6">Key Findings</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">Key Findings</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <ul className="divide-y divide-gray-100">
         {findings.map((finding, index) => (
-          <div
-            key={index}
-            className={`${finding.bgColor} border border-gray-200 rounded-lg p-5`}
-          >
-            <div className="flex items-start gap-4">
-              <div
-                className={`flex-shrink-0 w-10 h-10 ${finding.bgColor} rounded-lg flex items-center justify-center`}
-              >
-                <i className={`${finding.icon} ${finding.color} text-lg`}></i>
-              </div>
-              <div className="flex-1">
-                <h3 className="font-semibold text-gray-800 mb-2">
-                  {finding.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {finding.description}
-                </p>
-              </div>
-            </div>
-          </div>
+          <li key={index} className="flex items-start gap-3 py-3">
+            <i
+              className={`${finding.icon} ${finding.color} text-base mt-1 flex-shrink-0`}
+            ></i>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              {renderWithEmphasis(finding.description)}
+            </p>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

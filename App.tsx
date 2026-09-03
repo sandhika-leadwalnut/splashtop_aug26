@@ -48,23 +48,23 @@ const App: React.FC = () => {
             }
             title="URLs Tracked"
             value={DASHBOARD_STATS.urlsTracked.toString()}
-            description=""
+            description="Total pages monitored"
           />
           <SummaryCard
             icon={<UrlIcon />}
             title="Keywords Tracked"
             value={DASHBOARD_STATS.keywordsTracked.toString()}
-            description=""
+            description="Total keywords monitored"
           />
           <SummaryCard
             icon={<i className="fa-solid fa-search text-3xl text-blue-500"></i>}
-            title="Plan Total Backlinks"
+            title="Plan Total Backlinks (Till Aug)"
             value={DASHBOARD_STATS.PlanTotalBacklinks.toString()}
             description=""
           />
           <SummaryCard
             icon={<LinkIcon />}
-            title="Total Backlinks"
+            title="Actual Total Backlinks (Till Aug)"
             value={DASHBOARD_STATS.totalBacklinks.toString()}
             description=""
           />

@@ -1,5 +1,5 @@
 export const REPORT_CONFIG = {
-  reportDate: "Aug 7, 2026",
+  reportDate: "Sep 3, 2026",
   reportTitle: "Backlink Performance Summary Report",
   reportSubtitle: "Country: US | Source: Ahrefs, GSC",
   dataSource: "Ahrefs, GSC",
@@ -62,50 +62,49 @@ export const MONTH_INDICES = {
 // These should match the months at MONTH_INDICES.baseline and MONTH_INDICES.current
 export const MONTH_LABELS = {
   baseline: "Dec 2025 (Baseline)", // Display label for baseline month
-  current: "July 2026", // Display label for current month
+  current: "August 2026", // Display label for current month
 };
 
 export const DASHBOARD_STATS = {
   urlsTracked: 15,
-  totalBacklinks: 346,
+  totalBacklinks: 381,
   keywordsTracked: 35,
-  PlanTotalBacklinks : "380",
+  PlanTotalBacklinks : 430,
 };
 
 export const KEY_FINDINGS = [
   {
     title: "High-Authority Backlink Acquisition",
     description:
-      "Approximately 88% of referring domains fall within the DA 41–100 range, demonstrating a strong backlink profile supported by authoritative and credible referring websites. ",
+      "**Approximately 89% of referring domains have a DA between 41–100**, reflecting a strong backlink profile supported by authoritative and credible websites.",
     icon: "fas fa-shield-alt",
     color: "text-purple-600",
     bgColor: "bg-purple-50",
   },
   {
-    title: "Strong Growth in Backlink Acquisition",
+    title: "Domain Authority Improvement",
     description:
-      "July recorded the highest monthly backlink acquisition to date, with 108 new backlinks, bringing the total backlink count to 346 and reflecting consistent momentum in expanding the backlink profile. ",
-    icon: "fas fa-trophy",
+      "**Domain authority improved for two referring domains**, with the DA increasing from **41 to 42 for 'anydesk pricing'** and from **47 to 48 for 'remote access software'**.",
+    icon: "fas fa-arrow-trend-up",
     color: "text-green-600",
     bgColor: "bg-green-50",
   },
   {
     title: "Strong Performance Across Competitor Keywords",
     description:
-      "Competitor keywords continue to perform well, with 'teamviewer pricing' and 'anydesk pricing' ranking in the top 5, while 'teamviewer alternative' maintains a first-page position. ",
-    icon: "fas fa-exclamation-circle",
-    color: "text-red-600",
-    bgColor: "bg-red-50",
-  },
-  {
-    title: "Strong Improvement in Informational Keywords",
-    description:
-      "Informational keywords continue to strengthen, with 'remote desktop' ranking in the top 3, 'remote access' maintaining a top 5 position, and 'patch management' securing a first-page ranking. ",
+      "**Competitor keywords continue to perform strongly**, with **'anydesk pricing (4)'**, **'teamviewer alternative (5)'**, and **'teamviewer pricing (5)'** ranking in the top 5, while **'anydesk alternative (7)'** maintains a top 10 position.",
     icon: "fas fa-chart-line",
     color: "text-blue-600",
     bgColor: "bg-blue-50",
   },
- 
+  {
+    title: "Sustained Visibility on Core Keywords",
+    description:
+      "**Remote access and support keywords continue to maintain strong visibility**, with **'remote access (5)'** ranking in the top 5 and **'remote support (10)'** securing a first-page position.",
+    icon: "fas fa-bullseye",
+    color: "text-teal-600",
+    bgColor: "bg-teal-50",
+  },
 ];
 
 
@@ -114,9 +113,9 @@ export const BUSINESS_IMPACT_CONFIG = {
   // chartTitle: "Critical Keywords",
   chartSubtitle: "Critical keywords Performance",
   insightText: [
-  "Remote access and remote desktop keywords continue to deliver strong visibility, with 'remote desktop (3)' moving into the top 5 and 'remote access (5)' maintaining a first-page ranking.",
-  "Competitor keywords continue to strengthen, with 'anydesk pricing (4)' and 'teamviewer pricing (5)' now ranking in the top 5, while 'teamviewer alternative (9)' maintains a first-page position.",
-  "Patch management is showing significant improvement, moving from position 62 to 8 and securing a first-page ranking."
+  "Remote access and remote desktop keywords continue to deliver strong visibility, with 'remote access (5)' maintaining a top 5 position, while 'remote desktop (29)' continues to rank within the top 30.",
+  "Competitor keywords continue to strengthen, with 'anydesk pricing (4)' and 'teamviewer alternative (5)' ranking in the top 5, while 'teamviewer pricing (5)' maintains its top 5 position and 'anydesk alternative (7)' moves into the top 10.'teamviewer pricing (5)' now ranking in the top 5, while 'teamviewer alternative (9)' maintains a first-page position. ",
+  "Patch management is showing significant improvement, moving from position 62 to 8 and securing a first-page ranking. "
 ],
   trendChartTitle: "Ranking Performance Trend",
   trendKeyTakeaway:
@@ -125,7 +124,7 @@ export const BUSINESS_IMPACT_CONFIG = {
 
 export const REFERRING_DOMAINS_CONFIG = {
   qualityStatement:
-    "Approximately 91% of referring domains fall within the DA 41–100 range, reflecting a strong and credible backlink profile supported by high-quality, authoritative referring websites.",
+    "Approximately 89% of referring domains fall within the DA 41–100 range, reflecting a strong and credible backlink profile supported by high-quality, authoritative referring websites. ",
 };
 
 export const IMPLEMENTATION_CONFIG = {

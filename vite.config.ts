@@ -12,6 +12,14 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
+      },
+      server: {
+        watch: {
+          // Windows: native FS events miss atomic write-and-rename saves made by
+          // external editors/tools, so data file edits never trigger HMR.
+          usePolling: true,
+          interval: 300,
+        }
       }
     };
 });

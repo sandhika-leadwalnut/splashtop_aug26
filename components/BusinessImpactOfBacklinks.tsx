@@ -22,9 +22,9 @@ import {
   UI_TEXT,
 } from "../data/index";
 const categoryInsights = [
-  "Remote access and remote desktop keywords continue to deliver strong visibility, with 'remote desktop (3)' moving into the top 5 and 'remote access (5)' maintaining a first-page ranking.",
+  "Remote access and remote desktop keywords continue to deliver strong visibility, with 'remote access (5)' maintaining a top 5 position, while 'remote desktop (29)' continues to rank within the top 30.",
 
-  "Competitor keywords continue to strengthen, with 'anydesk pricing (4)' and 'teamviewer pricing (5)' now ranking in the top 5, while 'teamviewer alternative (9)' maintains a first-page position.",
+  "Competitor keywords continue to strengthen, with 'anydesk pricing (4)' and 'teamviewer alternative (5)' ranking in the top 5, while 'teamviewer pricing (5)' maintains its top 5 position and 'anydesk alternative (7)' moves into the top 10.'teamviewer pricing (5)' now ranking in the top 5, while 'teamviewer alternative (9)' maintains a first-page position. ",
 
   "Patch management is showing significant improvement, moving from position 62 to 8 and securing a first-page ranking. ",
 ];
