@@ -219,6 +219,11 @@ export const keywordRankingPerformance = {
         keyword: "patch management",
         rank: 62,
       },
+      {
+      url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+        keyword: "autonomous endpoint management",
+        rank: 14,  
+      }
     ],
 
     oct25Data: [
@@ -260,8 +265,8 @@ export const keywordRankingPerformance = {
       {
         url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
         keyword: "autonomous endpoint management",
-        jan25Rank: 14,
-        oct25Rank: 5,
+      
+        rank: 5,
       },
     ],
   },

@@ -100,7 +100,7 @@ export const KEY_FINDINGS = [
   {
     title: "Domain Authority Improvement",
     description:
-      "**Domain authority improved for a key referring domain**, with the DA increasing from **47 to 48** for the domain associated with **'remote access software.'**",
+      "**Domain authority improved for a key referring domain**, with the DA increasing from **43 to 48** for the domain associated with **'remote access software.'**",
     icon: "fas fa-arrow-trend-up",
     color: "text-green-600",
     bgColor: "bg-green-50",
