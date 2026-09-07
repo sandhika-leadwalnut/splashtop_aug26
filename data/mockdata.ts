@@ -180,8 +180,8 @@ export const keywordRankingPerformance = {
   },
 
   firstPage: {
-    jan25: 4,
-    oct25: 7,
+    jan25: 5,
+    oct25: 8,
 
     jan25Data: [
       {
