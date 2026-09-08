@@ -327,7 +327,7 @@ const top3Oct: KeywordRankInfo[] =
         </div>
       </div>
 
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
   
         <TrendChart
           title={UI_TEXT.keywordPerformance.top3Title}
@@ -338,7 +338,7 @@ const top3Oct: KeywordRankInfo[] =
           data={firstPageData}
         />
    
-      </div> */}
+      </div> 
 
       
        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
