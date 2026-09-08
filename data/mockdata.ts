@@ -63,7 +63,7 @@ export const performanceSummary: PerformanceSummary[] = [
     overallStatus: "Stable",
   },
   {
-    url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+    url: "https://www.splashtop.com/blog/autonomous-endpoint-management-comprehensive-guide",
     paChange: 2,
     bestKeywordMove: {keyword: "autonomous endpoint management", change: "+9" },
     worstKeywordMove: null,
@@ -119,7 +119,7 @@ export const performanceSummary: PerformanceSummary[] = [
 // ============================================================================
 // Referring domains distribution by DA (Domain Authority) score
 export const referringDomainsData = [
-  { name: "DA 71-100", value: 54, color: "#14b8a6" },
+  { name: "DA 71-100", value: 53, color: "#14b8a6" },
   { name: "DA 41-70", value: 287, color: "#3b82f6" },
   { name: "DA 25-40", value: 41, color: "#22c55e" },
 ];
@@ -171,7 +171,7 @@ export const keywordRankingPerformance = {
         oct25Rank: 4,
       },
       {
-        url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+        url: "https://www.splashtop.com/blog/autonomous-endpoint-management-comprehensive-guide",
         keyword: "autonomous endpoint management",
         jan25Rank: 14,
         oct25Rank: 5,
@@ -180,7 +180,7 @@ export const keywordRankingPerformance = {
   },
 
   firstPage: {
-    jan25: 5,
+    jan25: 4,
     oct25: 8,
 
     jan25Data: [
@@ -220,7 +220,7 @@ export const keywordRankingPerformance = {
         rank: 62,
       },
       {
-      url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+      url: "https://www.splashtop.com/blog/autonomous-endpoint-management-comprehensive-guide",
         keyword: "autonomous endpoint management",
         rank: 14,  
       }
@@ -263,7 +263,7 @@ export const keywordRankingPerformance = {
         rank: 6,
       },
       {
-        url: "https://www.splashtop.com/blog/autonomous-endpoint-management",
+        url: "https://www.splashtop.com/blog/autonomous-endpoint-management-comprehensive-guide",
         keyword: "autonomous endpoint management",
       
         rank: 5,
